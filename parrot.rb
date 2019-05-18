@@ -2,9 +2,10 @@ def parrot(phrase ="squawk!")
     puts phrase
     "squawk!"
     if phrase == parrot
-    "Pretty bird!"
+    puts  "Pretty bird!"
     elsif parrot(*p)
-    "squawk!"
+    puts "squawk!"
     else parrot(phrase)
-parrot(phrase)
+    puts "Squawk!"
+
 end
